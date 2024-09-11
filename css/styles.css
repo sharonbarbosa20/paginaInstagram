@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.caja1 {
+    height: 900px;
+    background-color: rgb(27, 64, 226);
+    border: 2px solid white;
+
+}
+
+.caja2 {
+    height: 900px;
+    background-color: rgb(224, 40, 40);
+    border: 2px solid white;
+
+}   
+
+.caja3 {
+    height: 100px;
+    background-color: rgb(27, 64, 226);
+    border: 2px solid white;
+
+}
+
+.caja4 {
+    height: 900px;
+    background-color: rgb(252, 252, 89);
+    border: 2px solid white;
+}
+
+@media (max-width: 768px) {
+    .caja1 {
+        display: none;
+    }
+}
+
+@media (min-width: 767px ) {
+    .caja3 {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .caja4 {
+        display: none;
+    }
+}
